@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM arm32v7/node:13-alpine
 
 RUN mkdir -p /opt/app
 WORKDIR /opt/app
