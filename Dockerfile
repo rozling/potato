@@ -1,4 +1,5 @@
-FROM arm32v7/node
+# FROM arm32v7/node
+FROM balenalib/armv7hf-alpine-node
 
 RUN mkdir -p /opt/app
 WORKDIR /opt/app
